@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>What's New</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.ibb.co/9TnG6vz/Waiter-Logo-Final.png">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+</head>
+<style>
+    *
+{
+    box-sizing: border-box;
+    font-family: 'Roboto','Sans-Serif';
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    background-color: rgb(230, 230, 230);
+}
+.container
+{
+    width: 100%;
+    height: 250px;
+    background-color: #539be2;
+    padding-top: 3%;
+    position: relative;
+}
+.image
+{
+    width: 140px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image img
+{
+    width: 100%;
+    height: 100%;
+    -webkit-filter: drop-shadow(1px 1px 25px rgba(0,0,0,0.2));
+}
+.back
+{
+    height: 1400px;
+    position: relative;
+    top: -60px;
+    width: 100%;
+}
+.content
+{
+    height: 100%;
+    background-color: white;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 8px;
+
+}
+.header
+{
+    width: 100%;
+    height: 8%;
+    text-align: center;
+}
+.header p
+{
+    font-size: 45px;
+    padding-top: 6%;
+    margin: 0;
+}
+.topData
+{
+    width: 100%;
+    height: 10%;
+}
+.topData p
+{
+    margin: 0;
+    width: 98%;
+    padding-left: 5%;
+    line-height: 30px;
+    padding-top: 2%;
+    color: rgb(100, 100, 100);
+}
+.banner
+{
+    width: 100%;
+    height: 32%;
+    text-align: center;
+}
+.banner img
+{
+    width: 100%;
+    height: 100%;
+}
+.butn button:hover
+{
+    background-color:#4785c4;
+}
+.btmData
+{
+    width: 100%;
+    height: 60%;
+    padding-top: 5%;
+}
+.btmData p,h3
+{
+    margin: 0;
+    width: 95%;
+    padding-left: 5%;
+    padding-top: 2%;
+    color: rgb(100, 100, 100);
+    line-height: 30px;
+}
+.btmData h3
+{
+    padding-bottom: 2%;
+    color: black;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+.help
+{
+    height: 200px;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    background-color: rgb(154, 210, 255);
+    padding-top: 3%;
+    border-radius: 8px;
+}
+.help p
+{
+    font-size: 25px;
+    line-height: 10px;
+}
+.bottom
+{
+    position: relative;
+    top: 0px;
+    margin: 0;
+    height: 150px;
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 23%;
+
+}
+.links
+{
+    width: 100%;
+    height: 10%;
+    padding-bottom: 2%;
+}
+.links a
+{
+    color: black;
+    padding-right: 5px;
+    font-size: 12px;
+}
+.endPara ,.foot
+{
+    color: rgb(100, 100, 100);
+    font-size: 12px;
+}
+
+
+@media(max-width:1200px)
+{
+    .banner
+    {
+        height: 35vw;
+    }
+    .header p
+    {
+        font-size: 4.5vw;
+    }
+}
+
+@media (max-width:500px)
+{
+    .container
+    {
+        padding-top: 5%;
+    }
+    .content
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .butn
+    {
+        padding-top: 15%;
+    }
+    .links,.endPara,.foot
+    {
+        padding-left: 15%;
+    }
+    .help
+    {
+        width: 80%;
+        margin-left: 12%;
+    }
+}
+@media (max-width:450px)
+{
+    .header p
+    {
+        font-size: 7vw;
+    }
+    .links,.endPara,.foot
+    {
+        margin-left:5%;
+        width: 90%;
+        font-size: 12px;
+    }
+    .topData
+    {
+        height: 10%;
+    }
+    .back
+    {
+        height: 1350px;
+    }
+    .help p
+    {
+        font-size: 4vw;
+    }
+    .bottom
+    {
+        padding-left: 0;
+    }
+
+}
+@media (max-width:350px)
+{
+    .content
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+    .topData
+    {
+        height: 10%;
+        padding-left: 4%;
+    }
+    .banner
+    {
+        height: 15%;
+    }
+    .back
+    {
+        height: 1400px;
+    }
+    .btmData
+    {
+        height: 60%;
+        padding-left: 4%;
+    }
+    .topData ,.btmData,.endContent
+    {
+        font-size: 5vw;
+    }
+    .help
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+    .btmData h3
+    {
+        font-size: 7vw;
+    }
+}
+@media (max-width:700px)
+{
+    .bottom
+    {
+        padding-left: 0;
+        text-align: center;
+    }
+    .links,.endPara,.foot
+    {
+        padding-left: 0;
+    }
+    .help
+    {
+        padding-top: 6%;
+        height: 30vw;
+    }
+    .help p
+    {
+        font-size: 4vw;
+    }
+}
+@media (max-width:200px)
+{
+    .bottom
+    {
+        top: 2px;
+        height: 10px;
+    }
+    .topData,.btmData
+    {
+        font-size: 5.5vw;
+        line-height: normal;
+    }
+    .back
+    {
+        height: 1400px;
+    }
+    .help p
+    {
+        font-size: 5vw;
+    }
+    .topData
+    {
+        height: 12%;
+    }
+    .bottom
+    {
+        padding-top: 10%;
+    }
+}
+@media(max-width:300px)
+{
+    .header
+    {
+        height: 5%;
+    }
+    .banner
+    {
+        height: 13%;
+    }
+}
+@media (min-width:1600px)
+{
+    .content,.help
+    {
+        width: 50%;
+        margin-left: 25%;
+    }
+    .bottom
+    {
+        padding-left: 25%;
+    }
+}
+@media (min-width:2200px)
+{
+    .content, .help
+    {
+        width: 40%;
+        margin-left: 30%;
+    }
+    .bottom
+    {
+        width: 50%;
+        margin-left: 7%;
+    }
+    .container
+    {
+        height: 300px;
+    }
+}
+</style>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="https://i.ibb.co/9TnG6vz/Waiter-Logo-Final.png" alt="Waiter Logo image">
+        </div>
+    </div>
+    <div class="back">
+        <div class="content">
+            <div class="header">
+                <p>Here's what's new.</p>
+            </div>
+            <div class="topData">
+                <p>The latest release of Ceej includes new features and lots of fixes to make your experience better than ever. See what's new below</p>
+            </div>
+            <div class="banner">
+                <img src="https://i.ibb.co/R7Cr5SK/banner-Pic.jpg" alt="Banner Picture">
+            </div>
+            <div class="btmData">
+                <p>Everyone likes a better experience. To make using ceej easier, more enjoyable, and safer than ever
+                    ,we've rolled out some changes to your account. Here's what to expect...
+                </p>
+                <h3>Brand New Dashboard</h3>
+                <p>
+                    We've completely overhauled the dashboard to make vital stats more readable, user easier to manage, and have given you more control over choosing which data should be shown where.
+                </p>
+                <p><a href="#">Experience the new Dashboard</a></p>
+                <h3>White label Experience</h3>
+                <p>
+                    Using Ceej with clients? Now you can completely customize their dashboard and experience with out white label service. Take our product and make it their own
+                </p>
+                <h3>Improved Securtiy</h3>
+                <p>With two-factor authentication, Ceej is now safer than ever to use. We've also been fine-tunning our servers to keep you data more secure. Never worry about hacks again</p>
+            </div>
+        </div>
+    </div>
+    <div class="help">
+        <p>Need more help?</p>
+        <p><a href="#">We're here, ready to talk</a></p>
+    </div>
+    <div class="bottom">
+        <div class="links">
+            <a href="#">Dashboard</a>
+            <a href="#">Billing</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="endPara">
+            <p>If these emails get annoying, please feel free to <a href="#">unsubscribe</a></p>
+        </div>
+        <div class="foot">
+            <p>Contoso - 1234 Main Street - Anywhere, MA - 56789</p>
+        </div>
+    </div>
+</body>
+
+</html>
